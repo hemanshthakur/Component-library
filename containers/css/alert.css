@@ -1,0 +1,45 @@
+:root{
+    --error-color:red;
+    --success-color:green;
+    --neutral-color:rgb(39, 38, 38);
+    --primary-color:white;
+}
+.alert-containers{
+    margin: 2rem;
+    font-size: large;
+}
+.alert{
+   margin: 1rem;
+    border-radius: 0.5rem;
+    width: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--neutral-color);
+    color:var(--primary-color);
+    font-weight: bolder;
+}
+.text-in-alert{
+    margin-left: 1rem;
+}
+.btn-in-alert{
+    margin-right: 1rem;
+    background: var(--primary-color);
+    color: var(--neutral-color);
+    font-weight: bolder;
+    border: none;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.error-div{
+    background-color: var(--error-color);
+}
+.success-div{
+    background-color: var(--success-color);
+}
+.error-btn{
+    color: var(--error-color);
+}
+.success-btn{
+    color: var(--success-color);
+}
