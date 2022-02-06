@@ -1,0 +1,23 @@
+:root{
+    font-size:100%;
+}
+/* avatar-css */
+.avatar{
+    vertical-align: middle;
+    border-radius:50% ;
+}
+.small{
+    width: 2rem;
+    height: 2rem;
+}
+.medium{
+    width: 4rem;
+    height:4rem
+}
+.default{
+    width: 3rem;
+    height: 3rem;
+}
+.large{
+      width: 5rem;
+}
