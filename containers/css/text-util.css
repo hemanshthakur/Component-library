@@ -1,4 +1,6 @@
-.text-container{
+:root{
+    --sub-text:gray;
+}.text-container{
     display: flex;
 }
 .heading-containers{
@@ -9,4 +11,10 @@
     flex-direction: column;
     height: inherit;
     justify-content: space-evenly;
+}
+.gray-text{
+    color: var(--sub-text);
+}
+.aligned-center{
+    text-align: center;
 }
