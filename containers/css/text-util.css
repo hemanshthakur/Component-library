@@ -1,0 +1,12 @@
+.text-container{
+    display: flex;
+}
+.heading-containers{
+    margin: 1rem;
+}
+.other-formats{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: space-evenly;
+}
