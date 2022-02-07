@@ -1,4 +1,11 @@
-@import "/containers/css/style.css";
+/* @import "/containers/css/style.css"; */
+:root{
+    --alert-error-color:red;
+    --alert-success-color:green;
+    --alert-neutral-color:rgb(39, 38, 38);
+    --alert-background-color:grey;
+    --alert-primary-color:white;
+}
 .alert-containers{
     margin: 2rem;
     font-size: large;
