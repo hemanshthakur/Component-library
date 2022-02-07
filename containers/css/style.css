@@ -1,8 +1,12 @@
-<<<<<<< HEAD
-=======
+
 :root{
     --alert-background-color:grey;
     --alert-primary-color:white;
     /* alert */
+    --alert-error-color:red;
+    --alert-success-color:green;
+    --alert-neutral-color:rgb(39, 38, 38);
+    --alert-background-color:grey;
+    --alert-primary-color:white;
 }
->>>>>>> development
+
