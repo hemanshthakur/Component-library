@@ -1,9 +1,4 @@
-:root{
-    --background-color:grey;
-    --primary-color:white;
-    font-size:100%;
-    width: 100%;
-}
+@import "/containers/css/style.css";
 /* avatar-css */
 
 .avatar{
@@ -30,8 +25,8 @@
     padding: 1rem;
   
     display: inline;
-    background-color: var(--background-color);
-    color:var(--primary-color) ;
+    background-color: var(--alert-background-color);
+    color:var(--alert-primary-color) ;
 }
 .text-in-avatar{
     display: inline;
