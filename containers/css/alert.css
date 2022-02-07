@@ -1,9 +1,4 @@
-:root{
-    --error-color:red;
-    --success-color:green;
-    --neutral-color:rgb(39, 38, 38);
-    --primary-color:white;
-}
+@import "/containers/css/style.css";
 .alert-containers{
     margin: 2rem;
     font-size: large;
@@ -15,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--neutral-color);
-    color:var(--primary-color);
+    background-color: var(--alert-neutral-color);
+    color:var(--alert-primary-color);
     font-weight: bolder;
 }
 .text-in-alert{
@@ -24,22 +19,22 @@
 }
 .btn-in-alert{
     margin-right: 1rem;
-    background: var(--primary-color);
-    color: var(--neutral-color);
+    background: var(--alert-primary-color);
+    color: var(--alert-neutral-color);
     font-weight: bolder;
     border: none;
     cursor:pointer;
     border-radius: 50%;
 }
 .error-div{
-    background-color: var(--error-color);
+    background-color: var(--alert-error-color);
 }
 .success-div{
-    background-color: var(--success-color);
+    background-color: var(--alert-success-color);
 }
 .error-btn{
-    color: var(--error-color);
+    color: var(--alert-error-color);
 }
 .success-btn{
-    color: var(--success-color);
+    color: var(--alert-success-color);
 }
