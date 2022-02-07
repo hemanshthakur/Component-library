@@ -1,0 +1,38 @@
+:root{
+    --primary:black;
+    --secondary:white;
+    --floater:red;
+    --shader:gray
+}
+.button-containers{
+    margin-top: 2rem;
+}
+.btn{
+    text-decoration: none;
+    color: var(--primary);
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.primary{
+    border: 0.1rem solid var(--primary) ;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+.secondary{
+    color: var(--secondary);
+    background-color: var(--primary);
+}
+.link{
+    text-decoration: underline;
+    color: var(--primary);
+}
+.floating{
+    color: var(--secondary);
+    background-color: var(--floater);
+    box-shadow: 0 0 1rem  var(--shader);
+}
+.icon-btn{
+    color:var(--primary);
+    font-size: 2rem;
+}
