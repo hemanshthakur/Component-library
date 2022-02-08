@@ -1,11 +1,4 @@
-:root{
-    --primary:black;
-    --secondary:white;
-    --shader:lightgray;
-    --card-badge:red;
-    font-size:10px ;
-    font-family: 'Roboto', sans-serif;
-}
+@import "/containers/css/style.css";
 .card-container{
    margin: 1rem;
    display: flex;
@@ -20,7 +13,7 @@
     margin:1rem;
     height: 30rem;
     width: 20rem;
-    background-color: var(--primary);
+    background-color: var(--card-primary-primary);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -32,20 +25,20 @@
     border-radius:1rem 1rem 0 0;
     justify-self: flex-start;
 }
-.header-tag{
-    color: var(--secondary);
+.card-header-tag{
+    color: var(--card-secondary-color);
     font-size: 1.5rem;
     margin: 1rem;
     font-weight: 700;
 }
-.author-name{
-    color: var(--shader);
+.card-author-name{
+    color: var(--card-shader-color);
     font-size: 1.2rem;
     margin: 1rem;
     font-weight: 600;
 }
-.description-text{
-    color: var(--secondary);
+.card-description-text{
+    color: var(--card-secondary-color);
     margin: 1rem;
     word-wrap: normal;
 }
@@ -56,7 +49,7 @@
 .card-buttons-container button{
     border: none;
     background:none;
-    color:var(--secondary);
+    color:var(--card-secondary-color);
     cursor: pointer;
 }
 .card-text-buttons{
@@ -64,12 +57,12 @@
     font-weight: 700;
 }
 .badge-for-cards{
-    background-color:var(--card-badge) ;
+    background-color:var(--card-badge-color) ;
     font-size:1.5rem;
     display: inline;
     padding: .3rem;
     border-radius: 1rem;
-    color: var(--secondary);
+    color: var(--card-secondary-color);
     position: absolute;
     top:0;
     right: 0;
@@ -78,7 +71,7 @@
     position: absolute;
     top: 1.5rem;
     left:2rem;
-    color: var(--secondary);
+    color: var(--card-secondary-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -87,15 +80,15 @@
 }
 .horizontal-cards .main-card-container{
     height:15rem;
-    width :30rem;
+    width :35rem;
     flex-wrap:wrap
 }
 .horizontal-cards .card-image-hero{
          height: inherit;
-         width:10rem;
+         width:15rem;
          border-radius: 1rem;
 }
-.horizontal-cards .description-text{
+.horizontal-cards .card-description-text{
     width: 18rem;
     margin: 1rem;
 }
