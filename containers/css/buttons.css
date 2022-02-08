@@ -1,0 +1,33 @@
+@import "/containers/css/style.css";
+.button-containers{
+    margin-top: 2rem;
+}
+.btn{
+    text-decoration: none;
+    color: var(--btn-primary);
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.primary{
+    border: 0.1rem solid var(--btn-primary) ;
+    color: var(--btn-primary);
+    background-color: var(--btn-secondary);
+}
+.secondary{
+    color: var(--btn-secondary);
+    background-color: var(--btn-primary);
+}
+.link{
+    text-decoration: underline;
+    color: var(--btn-primary);
+}
+.floating{
+    color: var(--btn-secondary);
+    background-color: var(--btn-floater);
+    box-shadow: 0 0 2rem  var(--btn-shader);
+}
+.icon-btn{
+    color:var(--btn-primary);
+    font-size: 2rem;
+}
