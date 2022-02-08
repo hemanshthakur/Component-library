@@ -8,5 +8,13 @@
     --alert-neutral-color:rgb(39, 38, 38);
     --alert-background-color:grey;
     --alert-primary-color:white;
+    /* cards */
+    --card-primary-primary:black;
+    --card-secondary-color:white;
+    --card-shader-color:lightgray;
+    --card-badge-color:red;
+
+    
+    font-family: 'Roboto', sans-serif;
 }
 
