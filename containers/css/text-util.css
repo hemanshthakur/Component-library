@@ -1,6 +1,7 @@
 :root{
-    --sub-text:gray;
-}.text-container{
+    --sub-text-color:gray;
+}
+.text-container{
     display: flex;
 }
 .heading-containers{
@@ -13,7 +14,7 @@
     justify-content: space-evenly;
 }
 .gray-text{
-    color: var(--sub-text);
+    color: var(--sub-text-color);
 }
 .aligned-center{
     text-align: center;
