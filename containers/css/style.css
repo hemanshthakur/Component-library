@@ -18,8 +18,12 @@
     --badge-active:green;
     --badge-neutral:darkgray;
     --badge-primary-color:white;
+   /* cards */
+   --btn-primary:black;
+   --btn-secondary:white;
+   --btn-floater:red;
+   --btn-shader:gray;
 
-    
     font-family: 'Roboto', sans-serif;
 }
 
