@@ -1,12 +1,12 @@
 .image-container{
     margin: 2rem ;
 }
-.responsive{
+.responsive-images{
     width:100%;
     max-width:40rem;
     height:auto
 }
-.round{
+.round-images{
     width: 10rem;
     border-radius:50% ;
 }
