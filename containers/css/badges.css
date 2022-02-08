@@ -1,0 +1,51 @@
+@import "/containers/css/style.css";
+.badges-container{
+    margin: 1rem;
+}
+.per-badge{
+    margin: 1rem ;
+    display: flex;
+}
+.badge{
+    margin: 1rem;
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    background-color: var(--badge-neutral);
+    border: 0.1rem solid var(--badge-primary-color);
+}
+.active-badge{
+    background-color: var(--badge-active);
+}
+.inactive-badge{
+    background-color: var(--badge-inactive);
+}
+
+
+.badge-on-icon{
+    position: relative;
+    font-size:xx-large ;
+}
+.badge-on-icon .badge{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 0.9rem;
+    width: 0.9rem;
+    margin: 0rem;
+    position: absolute;
+    font-size:0.8rem;
+    top:0 ;
+    left: 1.5rem;
+    background-color: none;
+    border: none;
+}
+.badge-on-avatar{
+    position: relative;
+}
+.badge-on-avatar .badge{
+    position: absolute;
+    bottom:0 ;
+    right: 0 ;
+    
+}
