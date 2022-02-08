@@ -26,15 +26,15 @@
     cursor:pointer;
     border-radius: 50%;
 }
-.error-div{
+.alert-error-div{
     background-color: var(--alert-error-color);
 }
-.success-div{
+.alert-success-div{
     background-color: var(--alert-success-color);
 }
-.error-btn{
+.alert-error-btn{
     color: var(--alert-error-color);
 }
-.success-btn{
+.alert-success-btn{
     color: var(--alert-success-color);
 }
