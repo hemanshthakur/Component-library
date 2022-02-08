@@ -13,6 +13,11 @@
     --card-secondary-color:white;
     --card-shader-color:lightgray;
     --card-badge-color:red;
+    /* badges */
+    --badge-inactive:red;
+    --badge-active:green;
+    --badge-neutral:darkgray;
+    --badge-primary-color:white;
 
     
     font-family: 'Roboto', sans-serif;

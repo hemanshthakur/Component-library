@@ -1,9 +1,5 @@
-:root{
-    --inactive:red;
-    --active:green;
-    --neutral:darkgray;
-    --primary-color:white;
-}.badges-container{
+@import "/containers/css/style.css";
+.badges-container{
     margin: 1rem;
 }
 .per-badge{
@@ -15,14 +11,14 @@
     height: 0.7rem;
     width: 0.7rem;
     border-radius: 50%;
-    background-color: var(--neutral);
-    border: 0.1rem solid var(--primary-color);
+    background-color: var(--badge-neutral);
+    border: 0.1rem solid var(--badge-primary-color);
 }
 .active-badge{
-    background-color: var(--active);
+    background-color: var(--badge-active);
 }
 .inactive-badge{
-    background-color: var(--inactive);
+    background-color: var(--badge-inactive);
 }
 
 
