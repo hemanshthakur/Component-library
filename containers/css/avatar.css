@@ -13,20 +13,20 @@
     width: 3rem;
     height: 3rem;
 }
-.small{
+.avatar-small{
     width: 2rem;
     height: 2rem;
 }
-.medium{
+.avatar-medium{
     width: 4rem;
     height:4rem
 }
 
-.large{
+.avatar-large{
       width: 5rem;
       height: 5rem;
 }
-.text{
+.avatar-text{
     padding: 1rem;
   
     display: inline;

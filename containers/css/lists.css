@@ -1,0 +1,7 @@
+.no-bullets-lists{
+    list-style-type: none;
+}
+.inline-order-lists{
+    display: inline;
+    margin: 1rem;
+}
