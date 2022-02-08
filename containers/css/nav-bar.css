@@ -1,0 +1,27 @@
+:root{
+    --navbar-primary-color:black;
+    --navbar-secondary-color:white;
+}
+body{
+    margin: 0;
+}
+.nav-container{
+    margin: 0;
+    background-color:var(--navbar-primary-color);
+    color: var(--navbar-secondary-color);
+    border-radius: 0 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading-text{
+    margin: 1rem;
+}
+.nav-options{
+    display: flex;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+.nav-btn{
+    margin:0.5rem
+}
