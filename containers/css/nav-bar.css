@@ -1,20 +1,20 @@
 :root{
-    --primary-color:black;
-    --secondary-color:white;
+    --navbar-primary-color:black;
+    --navbar-secondary-color:white;
 }
 body{
     margin: 0;
 }
 .nav-container{
     margin: 0;
-    background-color:var(--primary-color);
-    color: var(--secondary-color);
+    background-color:var(--navbar-primary-color);
+    color: var(--navbar-secondary-color);
     border-radius: 0 0 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.heading-text{
+.nav-heading-text{
     margin: 1rem;
 }
 .nav-options{
