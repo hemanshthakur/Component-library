@@ -1,0 +1,11 @@
+.input-containers{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.input-box{
+    margin: 1rem;
+    width: inhertit;
+    height: 2rem;
+}

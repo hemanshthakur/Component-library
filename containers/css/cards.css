@@ -1,0 +1,97 @@
+@import "/containers/css/style.css";
+.card-container{
+   margin: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+}
+.cards{
+    position:relative;
+    height: 32rem;
+    width: 22rem;
+}
+.main-card-container{
+    margin:1rem;
+    height: 30rem;
+    width: 20rem;
+    background-color: var(--card-primary-primary);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.card-image-hero{
+    width: inherit;
+    border-radius:1rem 1rem 0 0;
+    justify-self: flex-start;
+}
+.card-header-tag{
+    color: var(--card-secondary-color);
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+.card-author-name{
+    color: var(--card-shader-color);
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+.card-description-text{
+    color: var(--card-secondary-color);
+    margin: 1rem;
+    word-wrap: normal;
+}
+.card-buttons-container {
+    display: flex;
+    margin: 1rem;
+}
+.card-buttons-container button{
+    border: none;
+    background:none;
+    color:var(--card-secondary-color);
+    cursor: pointer;
+}
+.card-text-buttons{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.badge-for-cards{
+    background-color:var(--card-badge-color) ;
+    font-size:1.5rem;
+    display: inline;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: var(--card-secondary-color);
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.dismiss-for-cards{
+    position: absolute;
+    top: 1.5rem;
+    left:2rem;
+    color: var(--card-secondary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.cards-with-text-only .main-card-container{
+        justify-content: center;
+}
+.horizontal-cards .main-card-container{
+    height:15rem;
+    width :35rem;
+    flex-wrap:wrap
+}
+.horizontal-cards .card-image-hero{
+         height: inherit;
+         width:15rem;
+         border-radius: 1rem;
+}
+.horizontal-cards .card-description-text{
+    width: 18rem;
+    margin: 1rem;
+}
+.cards-with-shadow .main-card-container{
+   box-shadow: 0 0 3rem;
+}

@@ -1,0 +1,40 @@
+@import "/containers/css/style.css";
+.alert-containers{
+    margin: 2rem;
+    font-size: large;
+}
+.alert{
+   margin: 1rem;
+    border-radius: 0.5rem;
+    width: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--alert-neutral-color);
+    color:var(--alert-primary-color);
+    font-weight: bolder;
+}
+.text-in-alert{
+    margin-left: 1rem;
+}
+.btn-in-alert{
+    margin-right: 1rem;
+    background: var(--alert-primary-color);
+    color: var(--alert-neutral-color);
+    font-weight: bolder;
+    border: none;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.alert-error-div{
+    background-color: var(--alert-error-color);
+}
+.alert-success-div{
+    background-color: var(--alert-success-color);
+}
+.alert-error-btn{
+    color: var(--alert-error-color);
+}
+.alert-success-btn{
+    color: var(--alert-success-color);
+}
